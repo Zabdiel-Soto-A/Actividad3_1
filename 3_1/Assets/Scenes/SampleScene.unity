@@ -177,6 +177,7 @@ GameObject:
   - component: {fileID: 331667133}
   - component: {fileID: 331667136}
   - component: {fileID: 331667137}
+  - component: {fileID: 331667138}
   m_Layer: 0
   m_Name: John
   m_TagString: Untagged
@@ -335,6 +336,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b1c35d669edeb24e925988ca50068d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::JohnMovement
+  Speed: 1
+  JumpForce: 150
+--- !u!95 &331667138
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331667132}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 726af25ffd26c3a459c66108f0ab84f9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
